@@ -1,1 +1,15 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+    --primary: #5356FF;
+    --seconday: #67C6E3;
+    --accent: #378CE7;
+    --background: #dff5ff70;
+  }
+body{
+    background-color: var(--background);
+}
+.card{
+    /* height: 500px; */
+    border: none;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 10px;
+}

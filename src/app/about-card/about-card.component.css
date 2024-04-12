@@ -1,0 +1,57 @@
+#aboutCard{
+   margin-top: 100px;
+}
+.cardImg{
+    width: 70%;
+    height: auto;
+    border-radius: 30px;
+}
+#profile{
+    margin-top: -100px;
+    text-align: center;
+}
+.namePosition{
+    padding-top: 20px;
+    text-align: center;
+}
+.designation{
+    align-self: center;
+    width: fit-content;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #F3F6F6;
+    font-weight: 600;
+}
+
+.socialIcon{
+    width: 40px;
+    height: 40px;
+    background-color: #F3F6F6;
+    padding: 10px;
+    border-radius: 5px;
+}
+.details{
+    background-color: #F3F6F6;
+    margin: 20px;
+    border-radius: 5px;
+    padding: 10px 0;
+}
+.detailsTitle{
+    font-size: 12px;
+}
+.detailsData{
+    font-size: 15px;
+}
+.detailsList{
+    border-bottom: 1px solid #7777778a;
+    list-style: none;
+    padding: 10px;
+    margin: 15px;
+}
+.detailsList .socialIcon{
+    background-color: #fff;
+    padding: 8px;
+}
+.detailsList:last-child{
+    border: none;
+}

@@ -1,0 +1,37 @@
+<div class="card" id="aboutCard">
+    <div class="row justify-content-center">
+        <div class="col-12">
+            <div id="profile">
+                <img class="img-fluid cardImg" src="assets/images/profilePic.jpg" alt="" srcset="">
+                <div class="namePosition">
+                    <h4>Abhishek Bankar</h4>
+                    <span class="designation mt-4">Frontend Developer</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-10">
+            <div class="socialMedia m-2 mt-4 mb-4">
+                <div class="row">
+                    <div class="col-3 text-center" id="socialCard" *ngFor="let handle of socialMedia">
+                        <img src="assets/images/socialIcons/{{handle.icon}}.png" class="socialIcon" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12">
+            <div class="details">
+                <div class="detailsList" *ngFor="let detail of details">
+                    <div class="row justify-content-around">
+                        <div class="col-3" style="align-self: center;">
+                            <img src="assets/images/socialIcons/{{detail.icon}}.png" class="socialIcon" alt="">
+                        </div>
+                        <div class="col-9">
+                            <div class="detailsTitle">{{detail.name}}</div>
+                            <div class="detailsData">{{detail.data}}</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
